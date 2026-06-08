@@ -31,7 +31,6 @@
 		DE003D5A2DC8F9F20066A5E9 /* UIEdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B5D2DC8F9F20066A5E9 /* UIEdgeInsets+Extension.swift */; };
 		DE003D5C2DC8F9F20066A5E9 /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B712DC8F9F20066A5E9 /* TextAttributes.swift */; };
 		DE003D5D2DC8F9F20066A5E9 /* ObservableRetrySingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B6D2DC8F9F20066A5E9 /* ObservableRetrySingle.swift */; };
-		DE003D652DC8F9F20066A5E9 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B462DC8F9F20066A5E9 /* AmplitudeManager.swift */; };
 		DE003D6E2DC8F9F20066A5E9 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B522DC8F9F20066A5E9 /* PaddingLabel.swift */; };
 		DE003D7C2DC8F9F20066A5E9 /* ContentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B672DC8F9F20066A5E9 /* ContentError.swift */; };
 		DE003D802DC8F9F20066A5E9 /* TapAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE003B552DC8F9F20066A5E9 /* TapAreaButton.swift */; };
@@ -364,7 +363,6 @@
 		DE003B392DC8F9ED0066A5E9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		DE003B3A2DC8F9ED0066A5E9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		DE003B3D2DC8F9ED0066A5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DE003B462DC8F9F20066A5E9 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		DE003B482DC8F9F20066A5E9 /* PaginatedDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedDataLoader.swift; sourceTree = "<group>"; };
 		DE003B492DC8F9F20066A5E9 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
 		DE003B4B2DC8F9F20066A5E9 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -794,14 +792,6 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
-		DE003B472DC8F9F20066A5E9 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				DE003B462DC8F9F20066A5E9 /* AmplitudeManager.swift */,
-			);
-			path = Analytics;
-			sourceTree = "<group>";
-		};
 		DE003B4A2DC8F9F20066A5E9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -901,7 +891,6 @@
 		DE003B792DC8F9F20066A5E9 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				DE003B472DC8F9F20066A5E9 /* Analytics */,
 				DE003B4A2DC8F9F20066A5E9 /* Components */,
 				DE003B562DC8F9F20066A5E9 /* CustomViews */,
 				DE003B602DC8F9F20066A5E9 /* Extension */,
@@ -2603,7 +2592,6 @@
 				DE003D5A2DC8F9F20066A5E9 /* UIEdgeInsets+Extension.swift in Sources */,
 				DE003D5C2DC8F9F20066A5E9 /* TextAttributes.swift in Sources */,
 				DE003D5D2DC8F9F20066A5E9 /* ObservableRetrySingle.swift in Sources */,
-				DE003D652DC8F9F20066A5E9 /* AmplitudeManager.swift in Sources */,
 				DE003D6E2DC8F9F20066A5E9 /* PaddingLabel.swift in Sources */,
 				DE003D7C2DC8F9F20066A5E9 /* ContentError.swift in Sources */,
 				DE003D802DC8F9F20066A5E9 /* TapAreaButton.swift in Sources */,
@@ -2663,7 +2651,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2679,7 +2667,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.sie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2702,7 +2690,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2718,7 +2706,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.sie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
